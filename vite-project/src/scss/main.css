@@ -1,0 +1,47 @@
+.main_menu_right, .main__menu__left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main__menu_container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.main__menu_wrapper {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aquamarine;
+}
+
+.main__menu__left {
+
+  width: 55%;
+}
+
+.main_menu_right {
+  background-color: blueviolet;
+  width: 30%;
+}
+
+.main__menu_item {
+  display: flex;
+  gap: 20px;
+}
+
+.main__menu_icons {
+  display: flex;
+  gap: 15px;
+}
+
+.main__menu_menu ul {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+}/*# sourceMappingURL=main.css.map */
