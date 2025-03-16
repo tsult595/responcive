@@ -1,0 +1,67 @@
+%shevron{
+    width: 50px;
+    height: 150px;
+    background-color: rgba(255, 255, 255, 0.384);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_wrapper{
+    background-image: url('https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/bf/10/29/parque-nacional-de-komodo.jpg?w=1200&h=700&s=1');
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: contrast(1.1);
+    display: flex;               
+    justify-content: space-between;
+    align-items: center;
+   filter: contrast(1.1);
+   text-align: center;
+  }
+  .indonesia{
+    color: white;
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .indonesia h1{
+      color: white;
+      font-family: 'Nothing You Could Do', cursive;
+      font-size: 10rem;
+    }
+    
+    .indonesia p {
+        font-size: 1.2rem;
+        margin-bottom: 20px;
+    }
+  
+  .indonesia button {
+    padding: 10px 20px;
+    background-color: rgb(33, 121, 121);
+    border: none;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 180px;
+    height: 60px
+  }
+  .chevron_right{
+   @extend %shevron;
+  }
+  .chevron_left{
+    @extend %shevron;
+  }
+  .chevron_right i{
+    font-size: 20px;
+    color: white;
+  }
+  .chevron_left i{
+    font-size: 20px;
+    color: white;
+  }
+
+ 

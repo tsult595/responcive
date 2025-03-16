@@ -1,0 +1,223 @@
+.main_menu_right, .main__menu__left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.main__menu_container {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.mobile__menu_bar {
+  display: none;
+}
+
+.main__menu_wrapper {
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  background-color: #fff;
+}
+
+.main__menu__left {
+  width: 55%;
+}
+
+.main_menu_right {
+  width: 30%;
+}
+
+.main__menu_item {
+  display: flex;
+  gap: 20px;
+}
+
+.main__menu_item li a:hover {
+  color: aqua;
+}
+
+.main__menu_item i:hover {
+  color: aqua;
+}
+
+.main__menu_item li a {
+  text-decoration: none;
+  color: black;
+}
+
+.main__menu_icons {
+  display: flex;
+  gap: 15px;
+  color: gray;
+}
+
+.main__menu_icons .fa-brands:hover {
+  color: red;
+}
+
+.main__menu_menu ul {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+}
+
+.main__menu__searcn {
+  width: 60px;
+  background-color: rgb(202, 80, 24);
+  height: 100%;
+  border: none;
+}
+
+.main__menu__searcn {
+  color: white;
+}
+
+.fa-chevron-down {
+  padding-left: 5px;
+}
+
+.fa-phone {
+  color: red;
+}
+
+.pages_dropdown {
+  position: relative;
+}
+
+.contact_dropdown {
+  position: relative;
+}
+
+.pages_dropdown:hover .pages_dropdown_items {
+  visibility: visible;
+  opacity: 1;
+}
+
+.pages_dropdown_items {
+  position: absolute;
+  z-index: 1;
+  width: 170px;
+  height: 100px;
+  left: 20px;
+  padding: 20px 10px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  visibility: hidden;
+  text-align: center;
+  opacity: 0;
+  text-align: left;
+}
+
+.contact_dropdown:hover .contact__dropdown_items {
+  visibility: visible;
+  opacity: 1;
+}
+
+.contact__dropdown_items {
+  position: absolute;
+  z-index: 1;
+  width: 170px;
+  height: 100px;
+  left: 20px;
+  padding: 20px 10px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  visibility: hidden;
+  text-align: left;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.chevron_left, .chevron_right {
+  width: 50px;
+  height: 150px;
+  background-color: rgba(255, 255, 255, 0.384);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main_wrapper {
+  background-image: url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/bf/10/29/parque-nacional-de-komodo.jpg?w=1200&h=700&s=1");
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: contrast(1.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  filter: contrast(1.1);
+  text-align: center;
+}
+
+.indonesia {
+  color: white;
+  max-width: 600px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.indonesia h1 {
+  color: white;
+  font-family: "Nothing You Could Do", cursive;
+  font-size: 10rem;
+}
+
+.indonesia p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.indonesia button {
+  padding: 10px 20px;
+  background-color: rgb(33, 121, 121);
+  border: none;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 180px;
+  height: 60px;
+}
+
+.chevron_right i {
+  font-size: 20px;
+  color: white;
+}
+
+.chevron_left i {
+  font-size: 20px;
+  color: white;
+}
+
+.where_to {
+  width: 100%;
+  height: 200px;
+  background-color: blue;
+}
+
+.where_to_container {
+  width: 70%;
+  margin: 0 auto;
+}/*# sourceMappingURL=main.css.map */
