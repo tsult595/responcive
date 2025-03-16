@@ -1,0 +1,37 @@
+.enjoy{
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/bf/10/29/parque-nacional-de-komodo.jpg?w=1200&h=700&s=1');
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: contrast(1.1);
+    margin-top: 50px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 11%;
+}
+
+.enjoy__play {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 30%;
+    position: absolute;
+    font-size: 100px;
+}
+.enjoy__play i{
+    color: rgb(108, 179, 168);;
+}
+.enjoy_video{
+    position: absolute;
+    top: 30%;
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 60px;
+    color: white;
+}

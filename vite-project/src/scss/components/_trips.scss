@@ -1,0 +1,19 @@
+.trips{
+    width: 100%;
+
+}
+
+.trips_container{
+    width: 70%;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.trips_card img{
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+}
+
+.card_body h4{
+    text-align: center;
+}
