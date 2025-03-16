@@ -1,0 +1,66 @@
+.popular_destination{
+    width: 100%;
+    
+}
+.popular_destination h1, p{
+    text-align: center;
+}
+.popular_destination_container{
+    width: 70%;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.destination_card{
+    border: none;
+    position: relative;
+    overflow: hidden;
+    border-radius: 2px;
+    filter: brightness(0.7);
+    position: relative;
+    transition: 1s ease;
+}
+.destination_card:hover{
+    bottom: 10px;
+}
+.destination_card img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+    
+}
+.destination_card:hover .places{
+ background-color: red;
+ position: absolute;
+}
+.destination_card:hover h3{
+ color: red;
+
+}
+.places , h3{
+   position: absolute;
+    left: 20px;
+    color: black;
+    z-index: 3;
+}
+h3 {
+    bottom: 20px;
+    left: 28%;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    position: absolute;
+  }
+
+  .places {
+    bottom: 20px;
+    font-size: 16px;
+    color: black;
+    z-index: 2;
+    width: fit-content;
+    background-color: aqua;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }

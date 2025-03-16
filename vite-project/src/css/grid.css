@@ -9,7 +9,7 @@
     
 } */
 [class^= 'col']{
-    padding: 0px 16px;
+    padding: 16px 16px;
 }
 .col-1{
    width: calc(100% / 12 * 1); 
@@ -100,15 +100,11 @@
 
 @media (min-width: 641px) and (max-width: 1024px) {
 
-        .row{
-            display: flex;
-            flex-wrap: wrap;
-        }
-        .container{
-            width: 100%;
-            margin: 0 auto;
-            
-        }
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
         [class^= 'col']{
             padding: 0px 16px;
         }
@@ -152,6 +148,11 @@
      
 
 @media (min-width: 1281px){
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
     .col-xl-1{
         width: calc(100% / 12 * 1); 
      }
@@ -199,6 +200,7 @@
         .row{
             display: flex;
             flex-wrap: wrap;
+            justify-content: space-around;
         }
         .container{
             width: 100%;

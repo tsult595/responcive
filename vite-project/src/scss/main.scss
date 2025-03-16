@@ -1,5 +1,7 @@
 @import './components/header';
+@import "./utils/mixins";
 @import './base/reset';
-@import './utils/mixins';
 @import './components/main';
-@import './components/where'
+@import './components/where';
+@import './components/destination';
+@import './components/subscribe';
